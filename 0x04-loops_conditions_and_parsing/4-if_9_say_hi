@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#A script using while loop to display best school but displays hi at the 9th loop
+i="0"
+while [ $i -lt 10 ]
+do
+echo "Best School"
+if [ $i -eq 8 ]
+then echo "Hi"
+fi
+i=$((i+1))
+done
